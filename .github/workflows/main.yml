@@ -21,11 +21,11 @@ jobs:
 
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
-      run: dotnet publish SPAWA.csproj -c Release -o release --nologo
+      run: dotnet publish BlazorApp2.csproj -c Release -o release --nologo
     
-    # changes the base-tag in index.html from '/' to 'SPAWA' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to SPAWA
-      run: sed -i 's/<base href="\/" \/>/<base href="\/SPAWA\/" \/>/g' release/wwwroot/index.html
+    # changes the base-tag in index.html from '/' to 'BlazorApp2' to match GitHub Pages repository subdirectory
+    - name: Change base-tag in index.html from / to BlazorApp2
+      run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorApp2\/" \/>/g' release/wwwroot/index.html
     
     # copy index.html to 404.html to serve the same file when a file is not found
     - name: copy index.html to 404.html
