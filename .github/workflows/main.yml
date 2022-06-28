@@ -28,8 +28,8 @@ jobs:
       run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorApp2\/" \/>/g' release/wwwroot/index.html
     
     # changes the start-url of manifest in manifest.json from '/' to 'BlazorApp2' to match GitHub Pages repository subdirectory
-    - name: Change start-url in manifest.json from ./ to BlazorApp2
-      run: sed -i 's/"start-url":"\/" \/ / "start-url":"\/./BlazorApp2\/" \//g' release/wwwroot/manifest.json
+    # - name: Change start-url in manifest.json from ./ to BlazorApp2
+    #   run: sed -i 's/"start-url":"\/" \/ / "start-url":"\/./BlazorApp2\/" \//g' release/wwwroot/manifest.json
       
     # copy index.html to 404.html to serve the same file when a file is not found
     - name: copy index.html to 404.html
