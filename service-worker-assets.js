@@ -225,13 +225,9 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-O8GeHQHp4VDuCskZkD1zNgu08\/pnYalfPIcdDUOkm3k=",
-      "url": "offline.html"
-    },
-    {
       "hash": "sha256-4Yh4OTT5TEAPNyXEzOG+n5l2HPK294WFItz4SIelj88=",
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "PFp\/GCn9"
+  "version": "2AWEoGsO"
 };
