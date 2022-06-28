@@ -221,13 +221,17 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-iDkSwTozbqkYjIb4aD2HcTPF5lbOzP3P8\/ELwYGbwVQ=",
+      "hash": "sha256-NUGrt43srI66nln4cKuxfKQpvCZTfsXcmwwREPWO4iA=",
       "url": "manifest.json"
+    },
+    {
+      "hash": "sha256-O8GeHQHp4VDuCskZkD1zNgu08\/pnYalfPIcdDUOkm3k=",
+      "url": "offline.html"
     },
     {
       "hash": "sha256-4Yh4OTT5TEAPNyXEzOG+n5l2HPK294WFItz4SIelj88=",
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "SdhHcV4n"
+  "version": "PFp\/GCn9"
 };
